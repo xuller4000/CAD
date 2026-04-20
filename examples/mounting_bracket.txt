@@ -1,0 +1,2 @@
+A flat mounting bracket: a 100mm x 60mm x 8mm base plate with four countersunk holes of 6mm diameter,
+one in each corner at 10mm from the edges. Add 2mm chamfers on all top edges.

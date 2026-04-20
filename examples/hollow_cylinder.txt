@@ -1,0 +1,1 @@
+A hollow cylinder (pipe) with an outer diameter of 40mm, inner diameter of 32mm, and a height of 60mm.

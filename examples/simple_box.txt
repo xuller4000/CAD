@@ -1,0 +1,1 @@
+A rectangular box that is 80mm long, 50mm wide, and 30mm tall, with rounded edges of 3mm radius.

@@ -1,0 +1,2 @@
+A shaft collar with an outer diameter of 50mm, a central bore of 20mm diameter, and a height of 25mm.
+Round all outer edges with a 1.5mm fillet.
