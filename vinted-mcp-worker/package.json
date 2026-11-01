@@ -1,0 +1,21 @@
+{
+  "name": "vinted-mcp-worker",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Cloudflare Worker hosting the googlarz/vinted-mcp-cli MCP server over Streamable HTTP",
+  "scripts": {
+    "sync": "node scripts/sync-upstream.mjs",
+    "typecheck": "npm run sync && tsc --noEmit",
+    "dev": "npm run sync && wrangler dev",
+    "deploy": "npm run sync && wrangler deploy"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261023.1",
+    "typescript": "^5.5.0",
+    "wrangler": "^4.0.0"
+  }
+}

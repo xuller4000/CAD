@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "vinted-mcp",
+  "main": "src/worker.ts",
+  "compatibility_date": "2025-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": { "enabled": true },
+  "vars": {
+    "VINTED_CACHE_TTL_MS": "60000",
+    "VINTED_RATE_LIMIT_PER_SEC": "3",
+    "VINTED_RATE_LIMIT_BURST": "6"
+  }
+  // Secret, nicht hier eintragen:  npx wrangler secret put MCP_TOKEN
+}
